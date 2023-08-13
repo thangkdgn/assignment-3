@@ -1,0 +1,94 @@
+@media (max-width: 991px) {
+  /* navbar */
+  .img {
+    display: none;
+  }
+  .img1 {
+    width: 100%;
+    height: auto;
+    padding-left: 10px !important;
+  }
+  .padding-left-40px {
+    padding-left: 5px;
+  }
+  .nav-bar1 {
+    gap: 0px;
+    text-align: center;
+    display: grid;
+    padding-left: 0px !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  a {
+    padding: 10px;
+  }
+  .text-banner {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 35%;
+    top: 30%;
+    text-align: center;
+  }
+
+  .cell {
+    padding: 5px;
+    width: 80%;
+    margin-right: 0px;
+  }
+
+  /* first information */
+  #box-about {
+    grid-template-columns: 3fr 2fr;
+    padding-left: 30px;
+  }
+  /* grid box */
+  #main-cell {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 40px 0px 40px;
+  }
+  /* favourite */
+  .fv-box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container {
+    padding-left: 20px !important;
+  }
+  /* prize */
+  .main-prize {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 100px 0px 100px;
+  }
+  .prize {
+    display: block !important;
+  }
+
+  .pc-pr {
+    width: 248px;
+  }
+  .border {
+    width: 85%;
+  }
+  .social-box {
+    text-align: left;
+    padding-left: 30%;
+  }
+  .project1 {
+    grid-row: 2/2;
+    width: 290px;
+  }
+  .project2 {
+    grid-row: 2/2;
+    width: 290px;
+  }
+  .project3 {
+    grid-row: 4/4;
+    width: 280px;
+  }
+  .img-pj {
+    width: 290px;
+    padding-top: 10px;
+  }
+  .fix {
+    padding-left: 40px;
+  }
+}
